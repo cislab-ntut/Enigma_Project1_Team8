@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1569160231 source:c:\users\alex\desktop\enigma\main.cpp
+	<iostream>
+	<fstream>
+	<string.h>
+
