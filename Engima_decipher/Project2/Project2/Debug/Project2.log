@@ -1,0 +1,4 @@
+﻿  Source.cpp
+c:\users\alex\documents\visual studio 2015\projects\project2\project2\source.cpp(151): warning C4018: '<': signed/unsigned 不相符
+  Project2.vcxproj -> C:\Users\Alex\Documents\Visual Studio 2015\Projects\Project2\Debug\Project2.exe
+  Project2.vcxproj -> C:\Users\Alex\Documents\Visual Studio 2015\Projects\Project2\Debug\Project2.pdb (Partial PDB)
