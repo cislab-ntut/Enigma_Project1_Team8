@@ -12,4 +12,4 @@ v3: the turntable3 will get problem so will delete the code under
         
             //start3++;
             
-v4:(Engima_decipher) use it to try every possivility to decode the encrypt text
+v4: (Engima_decipher) use it to try every possivility to decode the encrypt text
