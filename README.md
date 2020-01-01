@@ -28,14 +28,14 @@ use it to try every possibility to decode the encrypt text
 ---
 ![](https://i.imgur.com/ZKXBXwJ.png)
 Enigma Simulation: http://www.enigmaco.de/enigma/
-:::info
-:mega:
+
+##waring(don't confuse)
 1. Graph and Our C++ code different nomination (from right to left 1,2,3)
  >Rotor I   = incir3[26]
  >Rotor II  = incir2[26]
  >Rotor III = incir1[26]
 2. remember the number cauclate and the range cauclate will get the more 1 than the accurate one
-:::
+
 ## Basic flow
 ![](https://i.imgur.com/lkrYRTo.png)
 ### Initial value-Enigma Status
