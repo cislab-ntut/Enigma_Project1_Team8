@@ -2,11 +2,10 @@
 
 ## Contributor
 1063514 李晨宇 Tasaky-cyber
->Build enigma simulator
+>Build enigma simulator & decipher optimization
 
 1051537 康宇良 aksulk1587
->Build input permutation combination of all possibility to break the encrypted text 
->
+>Build input permutation combination of all possibility to break the encrypted text & Parallelization of decipher
 ## Version
 
 ### Enigma: 
