@@ -29,7 +29,7 @@ use it to try every possibility to decode the encrypt text
 ![](https://i.imgur.com/ZKXBXwJ.png)
 Enigma Simulation: http://www.enigmaco.de/enigma/
 
-##waring(don't confuse)
+## Warning(don't confuse)
 1. Graph and Our C++ code different nomination (from right to left 1,2,3)
  >Rotor I   = incir3[26]
  >Rotor II  = incir2[26]
