@@ -85,8 +85,37 @@ find the number sequence of alphbet in that rotor array.
 ---
 ## Decipher
 
+主要是想要以減少多餘的可能性為出發點去建立plugboard表格值，再依照表格去建立交換過的plugboard值。
 
-kerrypear write here<=
+我們的方法首先會建立兩個表格：
+#### 一、補零表：
+![](https://i.imgur.com/tjxG0Nj.png)
+#### 二、交換表：
+![](https://i.imgur.com/bW0hX7D.png)
+
+兩表功用：
+用交換表來決定交換字母的順序，補零表則是決定plugboard中不動的值。
+
+例如第二行補零表為13,1，交換表第一行為665544332211。
+會依照上述數值循環建立
+00000000000006065544332211
+00000000000006605544332211
+00000000000006650544332211
+...
+66554433221010000000000000
+最後依照上述值去交換plugboard中的值
+例如第一行
+00000000000006065544332211
+ABCDEFGHIJKLMNOPQRSTUVWXYZ->ABCDEFGHIJKLMPONRQTSVUXWZY
+
+最後再依序帶進去plugboard表中去測試是否正確
+補零表以及交換表是事先以手打及程式循環跑出來的
+交換表格的參數則是在解密時生成，不然會太肥大。
+
+這樣建立表格有個好處，可以設立中斷點也可以把參數分成多份平行去跑程式。
+
+#### CODE的部分：
+115~196行主要是執行用於上方說明中補零表和交換表建立交換的參數，最後再執行43行的string plugb這個來進行交換。
 
 
 ### lifting efficiency
