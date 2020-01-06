@@ -133,4 +133,4 @@ Example:
 3. Parallelization
    We use a special way to insert our 0 on our input text to make it be devided by many parts. We can throw the parts to different computers to cauclate the value. This method also decrease the risk of the computer going wrong. If the computer crash, we don't need to run the input from the initial. We can just run that part which  computer handle again.   
 
-### <center>*Copyright &copy; 2020 Tasaky-cyber & aksulk1587 All rights reserved*</center>
+### *Copyright &copy; 2020 Tasaky-cyber & aksulk1587 All rights reserved*
